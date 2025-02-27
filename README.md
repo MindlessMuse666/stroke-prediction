@@ -18,31 +18,31 @@
 #### 2.1.1. Основной скрипт [main.py](src/main.py)
 
 <p align="center">
-  <img src="" alt="main.py">
+  <img src="https://github.com/user-attachments/assets/19e6a10b-9f0d-4e64-8b97-9fb6ab7691de" alt="main.py">
 </p>
 
-#### 2.1.2. data_loader.py
+#### 2.1.2. [data_loader.py](src/data_loader.py)
 
 <p align="center">
-  <img src="" alt="data_loader.py">
+  <img src="https://github.com/user-attachments/assets/241db9da-39a9-4a9f-89f7-100cc997d270" alt="data_loader.py">
 </p>
 
-#### 2.1.3. data_processor.py
+#### 2.1.3. [data_processor.py](src/data_processor.py)
 
 <p align="center">
-  <img src="" alt="data_processor.py">
+  <img src="https://github.com/user-attachments/assets/5efa5888-0e9e-4d40-b351-ac2e41b3bb3f" alt="data_processor.py">
 </p>
 
-#### 2.1.4. logistic_regression_model.py
+#### 2.1.4. [logistic_regression_model.py](src/logistic_regression_model.py)
 
 <p align="center">
-  <img src="" alt="logistic_regression_model.py">
+  <img src="https://github.com/user-attachments/assets/5b51b7cc-3185-44ff-b543-18a923a6ddc1" alt="logistic_regression_model.py">
 </p>
 
-#### 2.1.5. visualizer.py
+#### 2.1.5. [visualizer.py](src/visualizer.py)
 
 <p align="center">
-  <img src="" alt="visualizer.py">
+  <img src="https://github.com/user-attachments/assets/e59fedfa-58e3-4cdd-ad01-0c84e97a08f0" alt="visualizer.py">
 </p>
 
 ### 2.2. Конспект лекции
@@ -114,15 +114,21 @@
 
 * **ROC-кривая:** Визуализирует *trade-off* между `true positive rate` и `false positive rate`.
 
-*Заменить этим скриншотом актуальный скриншот ROC-кривой.*
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ebb78e68-62b8-414c-b959-480e0cc67ed6" alt="ROC curve">
+</p>
 
 * **Матрица ошибок:** Показывает количество правильно и неправильно классифицированных объектов для каждого класса.
 
-*Заменить этим скриншотом актуальный скриншот матрицы ошибок.*
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/edb62155-0138-42e1-8f59-5fa31155618e" alt="Error matrix">
+</p>
 
-* **Precision-Recall кривая:** Визуализирует trade-off между precision и recall.
+* **Precision-Recall кривая:** Визуализирует *trade-off* между *precision* и *recall*.
 
-*Заменить этим скриншотом актуальный скриншот Precision-Recall кривой.*
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1a1a662d-b829-4e13-b625-850955244271" alt="Precision-Recall curve">
+</p>
 
 ## 5. Анализ результатов
 
@@ -134,9 +140,15 @@
 * **F1-мера:** `0.2373887240356083`
 * **ROC AUC:** `0.8413991769547325`
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0022b2cf-7d18-47da-95f0-1ee47a74eec9" alt="metrics">
+</p>
+
 ### 5.1. Выводы
 
-На основе полученных метрик можно сделать вывод о [вставить краткое описание результатов работы модели (хорошая/плохая производительность, какие метрики лучше, какие хуже)].  Значение ROC AUC показывает [вставить интерпретацию значения ROC AUC].
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/35863442-20dc-4f0c-ae80-1edc61b82066" alt="results">
+</p>
 
 ### 5.2. Обсуждение возможных улучшений
 

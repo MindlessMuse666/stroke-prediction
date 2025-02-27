@@ -1,8 +1,6 @@
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, confusion_matrix
-import matplotlib.pyplot as plt
-import seaborn as sns
-import pandas as pd
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
+
 
 class LogisticRegressionModel:
     '''
@@ -27,6 +25,7 @@ class LogisticRegressionModel:
         self.y_pred = None
         self.y_pred_proba = None
 
+
     def train(self, X_train, y_train):
         '''
         Обучает модель логистической регрессии.
@@ -44,6 +43,7 @@ class LogisticRegressionModel:
         except Exception as e:
             print(f'Ошибка при обучении модели: {e}')
 
+
     def predict(self, X_test):
         '''
         Делает предсказания на тестовой выборке.
@@ -58,6 +58,7 @@ class LogisticRegressionModel:
             print('Предсказания выполнены.')
         except Exception as e:
             print(f'Ошибка при предсказании: {e}')
+
 
     def evaluate(self, y_test):
         '''

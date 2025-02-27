@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import roc_curve, confusion_matrix, precision_recall_curve
-import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+
 
 class Visualizer:
     '''
@@ -23,6 +23,7 @@ class Visualizer:
         self.y_pred = y_pred
         self.y_pred_proba = y_pred_proba
         self.model_name = model_name
+
 
     def plot_roc_curve(self):
         '''
@@ -46,6 +47,7 @@ class Visualizer:
         except Exception as e:
             print(f'Ошибка при построении ROC-кривой: {e}')
 
+
     def plot_confusion_matrix(self):
         '''
         Строит и отображает матрицу ошибок.
@@ -66,6 +68,7 @@ class Visualizer:
 
         except Exception as e:
             print(f'Ошибка при построении матрицы ошибок: {e}')
+
 
     def plot_precision_recall_curve(self):
         '''

@@ -1,4 +1,3 @@
-import pandas as pd
 from data_loader import DataLoader
 from data_processor import DataProcessor
 from logistic_regression_model import LogisticRegressionModel

@@ -65,7 +65,6 @@ class Visualizer:
             ax.set_xlabel('Предсказанные значения')
             ax.set_ylabel('Фактические значения')
             plt.show()
-
         except Exception as e:
             print(f'Ошибка при построении матрицы ошибок: {e}')
 
